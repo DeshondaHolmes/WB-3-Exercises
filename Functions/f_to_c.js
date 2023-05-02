@@ -1,11 +1,19 @@
+
 "use strict";
 
-
-function convertFtoC(fahrenheit,celsius){
-    let currentTemp = 92;
-
-
-    let celsiusTemp = convertFtoC(currentTemp);
-    console.log(celsiusTemp)
+//
+function convertFtoC(currentFahrenheit){
+    
+    let convertCelsiusTemp = (currentFahrenheit-32) * (5/9);
+    console.log(convertCelsiusTemp.toFixed(2))
+// Fomrula (32°F − 32) × 5/9 = 0°C
 
 }
+
+convertFtoC(92);
+convertFtoC(212);
+convertFtoC(90);
+convertFtoC(72);
+convertFtoC(32);
+convertFtoC(0);
+convertFtoC(-40);
