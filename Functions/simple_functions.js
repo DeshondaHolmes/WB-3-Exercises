@@ -1,13 +1,13 @@
 "use strict";
 
 function favoriteThings(){
-    let name = ("Zion");
-    let favMovie = ("SeventeenAgain");
-    let favMusician = ("JanetJackson");
+    let myName = ("Deshonda Homes");
+    let favoriteMovie = ("Lovely Bones");
+    let favoriteMusician = ("Greentea Peng");
     
-    console.log("My name is " + name + ". " 
-    + "My favorite movie right now is " + favMovie + ". " 
-    + "My favorite musician is " + favMusician + ".");
+    console.log("Hello I AM " + myName + " this is a statement. " +
+    "My favortie movie: " + favoriteMovie + " ,my favorite musician: "
+    + favoriteMusician );
 }
 
 
@@ -21,14 +21,15 @@ function whyImHere(){
 }
 
 function favoritePlace() {
-    let unitedStates = ("miami because I like the weather");
-    let spain = ("thats where my favorite soccer club is from");
+    let line1 = ("Dania Beach and Lake Ockechobee");
+    let line2 = (",Dania Beach is a historical site in Florida and ");
+    let line3 = ("Lake Ockechobee have a beautiful scenary.");
     
-    console.log("My favorite place in USA is " + unitedStates + "as for spain I like barcelona because" + spain);
+    console.log("My favorite places to visit:" + line1 + "," + line2  + line3);
 }
 
 
-console.log("Zion favorite things");
+console.log("Deshonda favorite things");
 favoriteThings();
 favoriteThings();
 favoriteThings();
@@ -37,6 +38,6 @@ favoriteThings();
 console.log("Deshonda Why Im Here");
 whyImHere();
 
-console.log("Kevin favorite places");
+console.log("Deshonda favorite places");
 favoritePlace();
 favoritePlace();
