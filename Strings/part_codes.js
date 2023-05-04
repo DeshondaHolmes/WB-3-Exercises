@@ -5,20 +5,67 @@ let di = "DI:12345-M";
 let ace = "ACE:1-12";
 
 
-
+//function to retun
 function getSupplierCode() {
 
-    let acmeFirst = acme.slice(0, 4);
-    let diFirst = di.slice(0, 2);
-    let aceFirst = ace.slice(0, 3);
+    let acmeSupplier = acme.substring(0, 4);
+    let diSupplier = di.substring(0, 2);
+    let aceSupplier = ace.substring(0, 3);
 
+    let supplier = (acmeSupplier + ", " + diSupplier + ", " + aceSupplier);
 
-    let code = (acmeFirst + "," + diFirst + ", " + aceFirst);
-    console.log(code)
+    console.log("Suppliers: " + supplier);
 
 }
 
 getSupplierCode();
 
 
+function getProductNumber() {
 
+
+    let acmeNumber= acme.substring(5, 8);
+    let diNumber = di.substring(3, 8);
+    let aceNumber= ace.substring(4, 5);
+
+    let code = (acmeNumber  + ", " + diNumber+ ", " + aceNumber);
+
+    console.log("Product number: " + code);
+
+
+}
+
+getProductNumber();
+
+
+function getSize() {
+
+    let acmeSize = acme.substring(9,10);
+    let diSize = di.substring(9,10);
+    let aceSize = ace.substring(6,7);
+
+    let size = (acmeSize  + ", " + diSize + " , " + aceSize);
+
+    console.log("Size: " + size);
+
+}
+
+getSize();
+
+
+
+function getCodes(){
+
+
+    let codes = (acme + " , " +  di + " , "  + ace);
+    console.log("Codes: " + codes);
+}
+
+getCodes(acme);
+
+/*
+let partCode = "275656543-large";
+let partNum, size;
+let dashPos = partCode.indexOf("-");
+partNum = partCode.substring(0, dashPos);
+size = partCode.substring(dashPos + 1);*/
