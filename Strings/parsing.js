@@ -31,3 +31,5 @@ parseAndDisplayName("Siddalee Grace");
 
 
 
+let d = new Date();
+console.log(d);
