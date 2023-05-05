@@ -8,8 +8,8 @@
 //dad birthday using yyyy, m ,d
 
 let myDate = new Date ("06/28/1998");  //short date  mm/ dd/ yyyy , birthday
-let momDate = new Date("August 10 1977");
-let dadDate = new Date (1974, 11, 09)
+let momDate = new Date("August 10 1977");//long date mmm / dd / yyyy
+let dadDate = new Date (1974, 7, 09)// yyyy, mm , dd
 
 
 console.log(myDate.toLocaleString());
