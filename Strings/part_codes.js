@@ -61,7 +61,7 @@ function getCodes(){
     console.log("Codes: " + codes);
 }
 
-getCodes(acme);
+getCodes();
 
 /*
 let partCode = "275656543-large";
